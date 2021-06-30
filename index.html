@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rhonda's Bakery Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/95583fc785.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="navtop">
+      <header class="header">
+        <h1 class="logo">
+          <img class="chefHat" src="img/Baker Hat.svg" alt="Baker hat" />Bake My
+          Day!<img
+            class="chefHat1"
+            src="img/Baker Hat.svg"
+            alt="Baker hat"
+          /><br />Bake Shop and Cafe
+        </h1>
+
+        <!-- Hamburger Control Using JavaScript onclick function -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerControl()">
+          <i class="fas fa-bars"></i>
+        </a>
+        <ul class="nav" id="myTopnav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="main-image" id="top" style="padding-top: 6.75rem">
+      <!-- This h2 is a dummy tag to anchor my main-image to the proper home location -->
+      <h2><span class="home" id="home"></span></h2>
+      <div class="display-middle text-white hide-small">
+        <h1
+          class="bg-color padding-RL-8"
+          style="letter-spacing: 0.3rem; font-size: 5vmax"
+        >
+          Bake My Day!
+        </h1>
+
+        <p
+          class="bg-color"
+          style="letter-spacing: 0.1rem; text-align: center; font-size: 2vmax"
+        >
+          <b>Bake Shop and Cafe</b>
+        </p>
+      </div>
+
+      <img
+        class="imgResponse"
+        src="img/pexels-roman-odintsov-4552113BB.jpg"
+        alt="icedCrossaints"
+      />
+    </div>
+
+    <!-- Menu Banner Section -->
+    <div class="row">
+      <h2 class="menu-section-top" id="menuSection">
+        <span class="menu" id="menu"></span>
+      </h2>
+      <div class="menu-banner col">
+        <h1>Menu</h1>
+      </div>
+    </div>
+
+    <!-- Menu Sweet Treats -->
+    <div class="row">
+      <div class="sweet-treats col sweet-treat-style">
+        <h2>Sweet Treats</h2>
+        <main></main>
+        <!-- insert javascript multidimensional array food items -->
+      </div>
+      <!--/end sweet-treats-->
+      <!--/sweet-treats picture-->
+      <div class="sweet-treats-1 col padding-8">
+        <img
+          class="feat-img-1"
+          src="img/pexels-maria-orlova-4946407A.jpg"
+          alt="Drinks and eats"
+          width="500"
+          height="750"
+        />
+      </div>
+      <!--/end sweet-treats picture-->
+    </div>
+
+    <!-- Menu Savory Treats -->
+    <!-- Savory Treats picture -->
+    <div class="row" id="menu">
+      <div class="savory-treats col padding-8">
+        <img
+          class="feat-img-1"
+          src="img/Vegetable-beef-soup-8a.jpg"
+          alt="Drinks and eats"
+          width="500"
+          height="750"
+        />
+      </div>
+      <!-- end savory-treats picture -->
+
+      <!-- Savory Treats content -->
+      <div class="savory-treats-1 col sweet-treat-style">
+        <h2>Savory Treats</h2>
+        <h4>Soups</h4>
+        <p>Chicken Noodle, Vegetable Beef, Chilie, Broccoli Cheese</p>
+        <h4>Sandwiches</h4>
+        <p>
+          Club, Tuna Salad, Ham & Cheese, Chicken Salad, Roast Beef and Cheddar
+        </p>
+        <h4>Salads</h4>
+        <p>
+          House Salads, Classic Italian Pasta, Chef Salad, Buffalo Chicken Salad
+        </p>
+      </div>
+    </div>
+    <!-- end savory-treats content -->
+
+    <!-- Delicious Drinks menu section -->
+
+    <div class="row" id="menu">
+      <div class="delicious-drinks col sweet-treat-style">
+        <h2>Delicious Drinks</h2>
+        <h4>Coffee, Hot Tea</h4>
+        <p>Regular, Decaf</p>
+        <h4>Capaccino</h4>
+        <p>Hazelnut, French Vanilla, Irish Creme</p>
+        <h4>Soda, Iced Tea, Lemonade</h4>
+        <p>Cola, Pink Lemonade, Ice Tea</p>
+        <h4>Bottled Water</h4>
+        <p>Blah, blah, blah</p>
+      </div>
+      <!--/end delicious drinks -->
+
+      <!-- Delicious Drinks picture -->
+      <div class="delicious-drinks-1 col padding-8">
+        <img
+          class="feat-img-1"
+          src="img/pexels-anna-kanifatova-4252560A.jpg"
+          alt="Drinks and eats"
+          width="500"
+          height="750"
+        />
+      </div>
+      <!--/end delicious drinks picture -->
+    </div>
+    <!-- About section -->
+    <div class="row">
+      <div class="about-section-1 padding-8 col">
+        <img
+          class="feat-img hide-small"
+          src="img/pexels-wendy-wei-1674064A.jpg"
+          alt="Drinks and eats"
+          width="500"
+          height="750"
+        />
+      </div>
+
+      <div class="about-section-2 col">
+        <h2><span class="about" id="about"></span></h2>
+        <h2>About Bake My Day</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+          architecto esse nobis cupiditate sapiente nemo reprehenderit
+          consectetur eius dolore minus. Ratione nesciunt earum doloribus nisi
+          in quo voluptate tempore dolor.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni beatae
+          ea voluptate ut itaque fugiat non culpa deleniti voluptates inventore!
+          Suscipit hic eveniet qui ab perspiciatis asperiores quos totam
+          veritatis?
+        </p>
+        <p class="hide-medium hide-small">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla magni
+          blanditiis reiciendis ab nobis velit deserunt ipsum maxime, ut porro
+          qui sapiente voluptas? Asperiores sapiente id incidunt, iusto tempore
+          ut!
+        </p>
+      </div>
+
+      <div class="about-section-3 padding-8 col">
+        <img
+          class="feat-img"
+          src="img/Quick-Cucumber-Caprese-Salad-or-Pasta-Salad-Recipe-2-1 (1)a.jpg"
+          alt="Drinks and eats"
+          width="500"
+          height="750"
+        />
+      </div>
+    </div>
+    <!-- Contact Banner Section -->
+    <div class="row">
+      <h2><span class="contact" id="contact"></span></h2>
+      <div class="contact-banner col">
+        <h1>Contact Us</h1>
+      </div>
+    </div>
+    <!--End contact banner  -->
+    <!-- Contact form section -->
+
+    <div class="row">
+      <div class="contact-form col">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper
+          <a href="">suscipit lobortis</a> nisl ut aliquip ex ea commodo
+          consequat.
+        </p>
+
+        <p class="hide-small">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper
+          <a href="">suscipit lobortis</a> nisl ut aliquip ex ea commodo
+          consequat.
+        </p>
+
+        <p class="hide-medium hide-small">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam,
+          quis nostrud exerci tation ullamcorper
+          <a href="">suscipit lobortis</a> nisl ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </div>
+
+      <div class="contact-form-1 col">
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="form-input padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+
+          <p>
+            <input
+              class="form-input padding-16"
+              type="number"
+              placeholder="How many people"
+              required
+              name="People"
+            />
+          </p>
+
+          <p>
+            <input
+              class="form-input padding-16"
+              type="datetime-local"
+              placeholder="Date and time"
+              required
+              name="date"
+              value="2021-02-18T16:00"
+            />
+          </p>
+
+          <p>
+            <input
+              class="form-input padding-16"
+              type="text"
+              placeholder="Message \ Special requirements"
+              required
+              name="Message"
+            />
+          </p>
+
+          <p><button class="form-button" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span>&copy;2021 Louisville, KY - Bake My Day Bake Shop and Cafe.</span
+      ><br />
+
+      <a class="top" href="#top">Back to top &raquo;</a>
+    </footer>
+    <script src="js/bakery.js"></script>
+  </body>
+</html>

@@ -25,7 +25,7 @@ a {
 h2 {
   position: relative;
 }
-
+/* 
 h2 .home {
   position: absolute;
   top: -150px;
@@ -47,7 +47,7 @@ h2 .contact {
   position: absolute;
 
   top: -150px;
-}
+} */
 
 h1,
 h2,
@@ -184,8 +184,31 @@ a.icon {
   color: black;
 }
 /* --------------------Page elements----------------------- */
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .main-image {
   position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+.imgResponse {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.7em;
+  border: solid 1px #d1d0d0;
+  border-radius: 0 0 5px 5px;
 }
 
 .display-middle {
@@ -205,16 +228,6 @@ a.icon {
 }
 .padding-RL-8 {
   padding: 0 1rem;
-}
-
-.imgResponse {
-  width: 100%;
-  max-width: 1100px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0.7em;
-  border: solid 1px #d1d0d0;
-  border-radius: 0 0 5px 5px;
 }
 
 .feat-img {
@@ -328,10 +341,14 @@ This CSS will apply styles only if your browser's
 viewport width is equal to or narrower than 702px: */
 
 @media (max-width: 702px) {
+  h2 .home {
+    position: absolute;
+    top: -150px;
+  }
   h2 .menu {
     position: absolute;
 
-    top: -330px;
+    top: -350px;
   }
 
   h2 .about {
@@ -373,12 +390,12 @@ viewport width is equal to or narrower than 702px: */
   }
 
   .menu-section-top {
-    margin-top: 12.5rem;
+    margin-top: 20.5rem;
   }
 
   /* This menuSectionControl is control by javascript  */
   .menu-section-top.menuSectionControl {
-    margin-top: -1rem;
+    margin-top: 7rem;
   }
 
   .feat-img-1,
@@ -405,27 +422,30 @@ viewport width is equal to or wider than 703px:*/
 
 @media all and (min-width: 703px) {
   /* This code positions nav links */
+  .main-image {
+    padding-top: 5.5rem;
+  }
   h2 .home {
     position: absolute;
 
-    top: -300px;
+    top: -165px;
   }
   h2 .menu {
     position: absolute;
 
-    top: -230px;
+    top: -175px;
   }
 
   h2 .about {
     position: absolute;
 
-    top: -230px;
+    top: -165px;
   }
 
   h2 .contact {
     position: absolute;
 
-    top: -230px;
+    top: -165px;
   }
   /* My original nav layout */
   /* .header, */
@@ -535,21 +555,24 @@ This CSS will apply styles only if your browser's
 viewport width is equal to or wider than 1030pxpx:*/
 @media all and (min-width: 1030px) {
   /* This code positions nav links */
+  .main-image {
+    padding-top: 7.5rem;
+  }
   h2 .home {
     position: absolute;
 
-    top: -300px;
+    top: -150px;
   }
   h2 .menu {
     position: absolute;
 
-    top: -145px;
+    top: -125px;
   }
 
   h2 .about {
     position: absolute;
 
-    top: -140px;
+    top: -120px;
   }
 
   h2 .contact {
@@ -566,49 +589,49 @@ viewport width is equal to or wider than 1030pxpx:*/
   }
 
   .sweet-treats {
-    width: 60%;
+    flex: 60%;
     order: initial;
   }
 
   .sweet-treats-1 {
-    width: 40%;
+    flex: 40%;
   }
 
   .savory-treats {
-    width: 40%;
+    flex: 40%;
     order: initial;
   }
 
   .savory-treats-1 {
-    width: 60%;
+    flex: 60%;
   }
 
   .delicious-drinks {
-    width: 60%;
+    flex: 60%;
   }
 
   .delicious-drinks-1 {
-    width: 40%;
+    flex: 40%;
   }
 
   .about-section-1 {
-    width: 25%;
+    flex: 25%;
   }
 
   .about-section-2 {
-    width: 50%;
+    flex: 50%;
   }
 
   .about-section-3 {
-    width: 25%;
+    flex: 25%;
   }
 
   .contact-form {
-    width: 40%;
+    flex: 40%;
   }
 
   .contact-form-1 {
-    width: 60%;
+    flex: 60%;
   }
 
   /* Adjust margin for 1030px breakpoint */

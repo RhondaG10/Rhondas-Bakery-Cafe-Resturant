@@ -249,17 +249,55 @@
       </div>
 
       <div class="contact-form-1 col">
-        <form action="/action_page.php" target="_blank">
+        <form autocomplete="false">
           <p>
             <input
               class="form-input padding-16"
-              type="text"
+              data-toggle="tooltip"
+              data-placement="right"
+              data-html="true"
+              title="Name <u>must</u> contain <em>letters/spaces</em> & be between <em>6 & 20</em> characters."
+              id="username"
               placeholder="Name"
               required
-              name="Name"
+              name="name"
+              autocomplete="off"
+              onfocus="this.value=''"
             />
           </p>
-
+          <p>
+            <input
+              class="form-input padding-16"
+              data-toggle="tooltip"
+              data-placement="right"
+              data-html="true"
+              title="Must be a valid email address e.g. person@mydomain.com"
+              id="email"
+              placeholder="Email"
+              required
+              name="email"
+              autocomplete="off"
+              onfocus="this.value=''"
+            />
+          </p>
+          <p>
+            <input
+              class="form-input padding-16"
+              data-toggle="tooltip"
+              data-placement="right"
+              data-html="true"
+              title="The telephone number must be in the format of</br> (123) 456-7890<br/>
+                 123-456-7890<br/>
+                 123.456.7890<br/>
+                 1234567890"
+              id="telephone"
+              placeholder="Telephone"
+              required
+              name="telephone"
+              autocomplete="off"
+              onfocus="this.value=''"
+            />
+          </p>
           <p>
             <input
               class="form-input padding-16"
@@ -286,7 +324,6 @@
               class="form-input padding-16"
               type="text"
               placeholder="Message \ Special requirements"
-              required
               name="Message"
             />
           </p>

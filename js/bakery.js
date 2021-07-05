@@ -124,6 +124,44 @@ storeOffer = `<h4><span class="text-primary" style = 'color: #1414b0; font: ital
 
 document.querySelector("main").insertAdjacentHTML("beforeend", storeOffer);
 
+//Form validation using regex
+const inputs = document.querySelectorAll("input");
+// console.log(inputs);
+
+// regex patterns
+const patterns = {
+  telephone: /^\D*(\d{3})\D*(\d{3})\D*(\d{4})\D*$/,
+  name: /^[a-z A-Z]{6,20}$/,
+  email: /^[^@]+@[^@.]+\.[a-z]+$/i,
+};
+
+// validation function
+function validate(field, regex) {
+  console.log(regex.test(field.value));
+  //regex.test(field.value) flags true or false
+  if (regex.test(field.value)) {
+    field.className = "valid form-input padding-16";
+  } else {
+    field.className = "invalid form-input padding-16";
+  }
+}
+
+// attach keyup events to inputs
+inputs.forEach((input) => {
+  input.addEventListener("keyup", (e) => {
+    // console.log(patterns[e.target.attributes.name.value]);
+    // console.log(e.target.attributes.name.value);
+    validate(e.target, patterns[e.target.attributes.name.value]);
+  });
+});
+
+// Bootstrap tooltip using jquery
+$(document).ready(function () {
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger: "toggle",
+  });
+});
+
 // Reload the web page every hour to update the store offer
 setInterval(() => {
   location.reload();

@@ -318,9 +318,11 @@ a.icon {
 
 .form-input {
   padding: 8px;
-  border: none;
-  border-bottom: 1px solid #ccc;
+  /* border: none; */
+  /* border-bottom: 1px solid #ccc; */
   width: 100%;
+  border: 3px solid #ccc;
+  outline: none !important;
 }
 
 .form-button {
@@ -340,6 +342,15 @@ a.icon {
   color: #fff;
   background-color: #1414b0;
   border-radius: 5px;
+}
+
+/* form validation styles */
+
+input.valid {
+  border-color: #36cc36;
+}
+input.invalid {
+  border-color: orange;
 }
 
 .footer {
@@ -458,6 +469,9 @@ viewport width is equal to or narrower than 702px: */
   }
   .savory-treats {
     order: 2;
+  }
+  .tooltip {
+    display: none !important;
   }
 }
 /* Target viewport sizes 703px and wider 

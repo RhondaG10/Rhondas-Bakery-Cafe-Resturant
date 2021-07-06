@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M50,67.997c-4.417,0-7.999-3.581-7.999-7.999c0-2.025,0.759-3.869,2-5.278V38.001
-	c0-3.313,2.687-5.999,5.999-5.999c3.313,0,6,2.686,6,5.999V54.72c1.24,1.409,1.999,3.253,1.999,5.278
-	C57.999,64.416,54.418,67.997,50,67.997z M52,56.553v-4.292V42v-3.999c0-1.104-0.896-2-2-2s-1.999,0.896-1.999,2V42v10.261v4.292
-	c-1.19,0.693-2,1.969-2,3.445c0,2.209,1.791,3.999,3.999,3.999c2.209,0,4-1.79,4-3.999C54,58.521,53.19,57.246,52,56.553z
-	 M50,62.998c-1.656,0-2.999-1.344-2.999-3s1.343-3,2.999-3c1.657,0,3,1.344,3,3S51.657,62.998,50,62.998z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ICONS / Forecast / Color / 31 - Cold LK</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ICONS-/-Forecast-/-Color-/-31---Cold-LK" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cold" transform="translate(94.000000, 13.000000)" stroke-width="9.90909091">
+            <circle id="Oval" stroke="#288ADB" cx="50.5" cy="212.995909" r="19.8677273"></circle>
+            <path d="M75.2727273,169.990455 L75.2727273,24.7727273 C75.2727273,11.0911278 64.1815995,0 50.5,0 C36.8184005,0 25.7272727,11.0911278 25.7272727,24.7727273 L25.7272727,169.990455 C6.30703923,181.202732 -3.16113579,204.060928 2.64276588,225.721384 C8.44666755,247.38184 28.0754459,262.443531 50.5,262.443531 C72.9245541,262.443531 92.5533324,247.38184 98.3572341,225.721384 C104.161136,204.060928 94.6929608,181.202732 75.2727273,169.990455 L75.2727273,169.990455 Z" id="Path" stroke="#686763"></path>
+            <path d="M99.9463636,34.6322727 L75.2727273,34.6322727" id="Path" stroke="#686763"></path>
+            <path d="M99.9463636,69.3140909 L75.2727273,69.3140909" id="Path" stroke="#686763"></path>
+            <path d="M99.9463636,103.995909 L75.2727273,103.995909" id="Path" stroke="#686763"></path>
+            <path d="M50.5,193.128182 L50.5,153.491818" id="Path" stroke="#288ADB"></path>
+        </g>
+    </g>
 </svg>

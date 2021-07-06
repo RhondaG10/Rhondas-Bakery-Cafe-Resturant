@@ -16,7 +16,8 @@ const updateWeather = (data) => {
 
   // Update icon images
   // The AccuWeather's WeatherIcon property provides a unique number that we can match icon images to.
-  const iconSrc = `img/imgIcon/icons/${weather.WeatherIcon}.svg`;
+  // const iconSrc = `img/imgIcon/icons/${weather.WeatherIcon}.svg`;
+  const iconSrc = `img/imgIcon/icons/${weather.WeatherIcon}-s.png`;
 
   icon.setAttribute("src", iconSrc);
 
@@ -31,10 +32,11 @@ const getWeather = async () => {
 
   // Wait until the promise has resolved and then get the data response object back and asign it to the response const variable
   const response = await fetch(base);
+  console.log(response);
 
   // Wait until the promise has resolved and then using the json() method get the response object, and then pass or convert that into a javascript array object and store that in const data
   const data = await response.json();
-  console.log(data[0]);
+  console.log(data);
   return data[0];
 };
 

@@ -212,15 +212,15 @@ a.icon {
 }
 .iconWeather {
   /* background-color: rgba(241, 239, 64, 0.55); */
-  background-color: rgba(245, 240, 238, 0.877);
+  background-color: rgba(36, 55, 230, 0.63);
   border-radius: 50%;
-  width: 50px;
+  width: 75px;
 }
 
 .display-inconPosition {
   position: absolute;
-  left: 3rem;
-  bottom: 1.5rem;
+  left: 2rem;
+  bottom: 2rem;
   margin: 0;
   padding: 0;
   /* transform: translate(50%, 0%); */

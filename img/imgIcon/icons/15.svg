@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M59.999,65.641c-0.28,0-0.649,0-1.062,0l3.585-4.412
-	c3.181-1.057,5.477-4.053,5.477-7.588c0-4.418-3.581-7.998-7.999-7.998c-1.601,0-3.083,0.48-4.333,1.29
-	c-1.232-5.316-5.974-9.29-11.665-9.29c-6.626,0-11.998,5.372-11.998,12c0,5.446,3.632,10.038,8.604,11.504l-1.349,3.777
-	c-6.52-2.021-11.255-8.098-11.255-15.282c0-8.835,7.163-15.999,15.998-15.999c6.004,0,11.229,3.312,13.965,8.204
-	c0.664-0.114,1.337-0.205,2.033-0.205c6.627,0,11.999,5.371,11.999,11.998S66.626,65.641,59.999,65.641z M48.001,51.641h9.998
-	l-5.999,10h6.999L46.001,77.639l3.6-11.998h-6.6L48.001,51.641z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 288 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ICONS / Forecast / Color / 15 - Thunderstorms LK</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ICONS-/-Forecast-/-Color-/-15---Thunderstorms-LK" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thunderstorms" transform="translate(26.000000, 30.000000)" stroke-width="9.79591837">
+            <polyline id="Path" stroke="#FF8700" points="109.861224 228.506122 147.281633 164.440816 104.767347 164.440816 142.187755 100.277551"></polyline>
+            <path d="M141.697959,137.697959 L178.873469,137.697959 C209.981753,137.697959 235.2,112.479712 235.2,81.3714286 C235.2,50.2631447 209.981753,25.044898 178.873469,25.044898 L169.22449,25.044898 C151.227484,3.85641604 122.218371,-4.36929839 95.7780574,4.21870454 C69.3377434,12.8067075 50.699006,36.5087839 48.5877551,64.2285714 L36.7836735,64.2285714 C16.4956626,64.2285719 0.048980366,80.6752544 0.048980366,100.963265 C0.048980366,121.251276 16.4956626,137.697959 36.7836735,137.697959 L98.4979592,137.697959" id="Path" stroke="#BABABA"></path>
+        </g>
+    </g>
 </svg>
